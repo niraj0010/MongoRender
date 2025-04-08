@@ -1,7 +1,7 @@
 const { MongoClient } = require("mongodb");
 
 // The uri string must be the connection string for the database (obtained on Atlas).
-const uri = `mongodb+srv://neerazbhatta1:${process.env.DB_PASSWORD}@cluster0.nlndqi7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`;
+const uri = `mongodb+srv://neerazbhatta1:${process.env.DB_PASSWORD}@cluster0.nlndqi7.mongodb.net/MyDBExample?retryWrites=true&w=majority&tls=true`;
 
 // --- This is the standard stuff to get it to work on the browser
 const express = require('express');
